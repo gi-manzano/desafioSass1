@@ -1,0 +1,9 @@
+li {
+  padding: 50px;
+}
+li a {
+  color: blue;
+}
+li:hover {
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */

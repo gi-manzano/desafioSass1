@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas: "logo nav nav" "contenido contenido contenido" "footer footer footer";
+    grid-template-rows: repeat(3, 33%);
+    grid-template-columns: 150px 1fr 400px; }
+    .grid-container .logo {
+      grid-area: logo; }
+    .grid-container nav {
+      grid-area: nav; }
+    .grid-container .contenido {
+      grid-area: contenido; }
+    .grid-container footer {
+      grid-area: footer; } }
+
+li {
+  padding: 50px; }
+  li a {
+    color: blue; }
+  li:hover {
+    background-color: black; }
+
+.encabezado {
+  padding: 50px; }
+  .encabezado h1 {
+    font-size: 50px; }
+
+footer {
+  background-color: lightgreen;
+  display: flex; }
+  footer h3 {
+    color: black; }

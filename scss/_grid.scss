@@ -1,0 +1,29 @@
+//variables
+
+$grid: grid;
+$full-width: 100%;
+@media (max-width: 768px)
+{
+    .grid-container {
+        display: $grid;
+        grid-template-areas: 
+        "logo nav nav"
+        "contenido contenido contenido"
+        "footer footer footer";
+
+        grid-template-rows: repeat(3, 33%);
+        grid-template-columns: 150px 1fr 400px;
+        .logo {
+            grid-area: logo;
+        }
+        nav {
+            grid-area: nav;
+        }
+        .contenido {
+            grid-area: contenido;
+        }
+        footer {
+            grid-area: footer;
+        }
+}
+}

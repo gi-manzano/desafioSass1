@@ -1,0 +1,15 @@
+//variables (declarando e inicializando variables)
+$azul: blue;
+$pTop: 50px;
+$negro: black;
+$flex: flex;
+//nesting
+li {
+    padding: $pTop;
+    a {
+        color: $azul;
+    }
+    &:hover {
+        background-color: $negro;
+    }
+}

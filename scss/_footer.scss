@@ -1,0 +1,9 @@
+@import "colores";
+$flex: flex;
+footer {
+    background-color:$green;
+    display: flex;
+    h3 {
+        color:$black;
+    }
+}
