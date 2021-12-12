@@ -3,6 +3,8 @@ $flex: flex;
 footer {
     background-color:$green;
     display: flex;
+    align-items: center;
+    padding: 10px;
     h3 {
         color:$black;
     }

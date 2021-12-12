@@ -8,8 +8,9 @@ li {
     padding: $pTop;
     a {
         color: $azul;
+        display: inline-block;
     }
     &:hover {
-        background-color: $negro;
+        background-color: $azul;
     }
 }

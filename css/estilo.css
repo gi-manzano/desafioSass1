@@ -1,24 +1,27 @@
 @media (max-width: 768px) {
   .grid-container {
     display: grid;
-    grid-template-areas: "logo nav nav" "contenido contenido contenido" "footer footer footer";
+    grid-template-areas: "logo nav nav" "contenido contenido contenido" "banner banner banner" "footer footer footer";
     grid-template-rows: repeat(3, 33%);
-    grid-template-columns: 150px 1fr 400px; }
+    grid-template-columns: 150px 1fr  1fr 400px; }
     .grid-container .logo {
       grid-area: logo; }
     .grid-container nav {
       grid-area: nav; }
     .grid-container .contenido {
       grid-area: contenido; }
+      .grid-container .contenido .banner {
+        grid-area: banner; }
     .grid-container footer {
       grid-area: footer; } }
 
 li {
   padding: 50px; }
   li a {
-    color: blue; }
+    color: blue;
+    display: inline-block; }
   li:hover {
-    background-color: black; }
+    background-color: blue; }
 
 .encabezado {
   padding: 50px; }
@@ -27,6 +30,8 @@ li {
 
 footer {
   background-color: lightgreen;
-  display: flex; }
+  display: flex;
+  align-items: center;
+  padding: 10px; }
   footer h3 {
     color: black; }
